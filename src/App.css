@@ -1,0 +1,143 @@
+
+ 
+.body-background {
+    background-image: url('./assets/bus-3.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+     
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+} 
+.body-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+ 
+.tag-line{
+    position: relative;
+    padding-left: 150px;
+    top: 60px;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 40%;
+    border-top-right-radius:25px ;
+    color: #fff;
+}
+.popular-run{
+    position: relative;
+    top: 15px;
+    padding: 0px 150px;
+}
+.Popular-title{
+    border-bottom: 1px solid lightgrey;
+    padding: 5px 0px;
+    font-weight: bold;
+    position: relative;
+    left: -290px;
+}
+
+.bus-container{
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+}
+.facilities{
+    border: 1px solid lightgrey;
+    
+}
+
+.footer{
+    width: 100%;
+}
+
+.drop-downcontent{
+    display: block;
+    position: absolute;
+    min-width: 150px;
+    /* padding: 15px 10px; */
+    z-index: 1;
+    top: 110px;
+    margin-top: 10px;
+}
+.content{
+    background-color: #fff;
+    padding: 10px 25px;
+    border: 1px solid gray;
+}
+
+.Destinaiton-downcontent{
+    display: block;
+    position: absolute;
+    min-width: 150px;
+    /* padding: 15px 10px; */
+    z-index: 1;
+    top: 110px;
+    left: 370px;
+    margin-top: 10px;
+}
+
+ 
+.seat-compartment{
+    width: 60px;
+    height: 30px;
+    /* border:1px solid lightgreen */
+    background: lightgray;
+}
+.bus-seats{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.lower-desk{
+    position: relative;
+    left: -25px;
+}
+.pickupform{
+    background-color: aliceblue;
+}
+.price{
+    border-top-right-radius: 20px;
+}
+
+.personal-detail-form{
+    width: 40%;
+}
+.form{
+    padding: 10px;
+}
+.ticket-info{
+    width: 50%;
+}
+
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .breaking-border{
+    border: 1px dashed grey;
+    width: 180%;
+  }
+  .responsive-table {
+    width: 100%;
+    padding: 0px 25px;
+    border-collapse: collapse;
+  }
+  .table-head{
+    padding: 15px 0px;
+  }
+  .personal-sec{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+ 
+  }
+  .seatelement{
+    cursor: pointer;
+  }
+
+  
